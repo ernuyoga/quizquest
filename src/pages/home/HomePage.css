@@ -1,0 +1,80 @@
+.container-home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.content-home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.greetings-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #7c00fe;
+  padding: 20px;
+  width: 100%;
+}
+
+.greetings {
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.description-quiz {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.short-message {
+  font-size: 1.1rem;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.difficulty-cards {
+  display: flex;
+  justify-content: space-around;
+  padding: 25px;
+  width: 50%;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  color: #7c00fe;
+  padding: 20px;
+  border: 3px solid #7c00fe;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+  text-align: center;
+  width: 20%;
+  height: 100px;
+  -webkit-transition: border-color 0.3s ease;
+  -moz-transition: border-color 0.3s ease;
+  -ms-transition: border-color 0.3s ease;
+  -o-transition: border-color 0.3s ease;
+}
+
+.card:hover {
+  background-color: #7c00fe;
+  color: #ffffff;
+}
